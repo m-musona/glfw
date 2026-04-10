@@ -256,6 +256,7 @@ GLFWbool _glfwWindowIconifiedNull(_GLFWwindow* window);
 GLFWbool _glfwWindowVisibleNull(_GLFWwindow* window);
 void _glfwPollEventsNull(void);
 void _glfwWaitEventsNull(void);
+void _glfwWindowTitlebarNull(_GLFWwindow* window, int posX, int posY, int* hit);
 void _glfwWaitEventsTimeoutNull(double timeout);
 void _glfwPostEmptyEventNull(void);
 void _glfwGetCursorPosNull(_GLFWwindow* window, double* xpos, double* ypos);

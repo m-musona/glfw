@@ -105,6 +105,7 @@ GLFWbool _glfwConnectNull(int platformID, _GLFWplatform* platform)
         .waitEvents = _glfwWaitEventsNull,
         .waitEventsTimeout = _glfwWaitEventsTimeoutNull,
         .postEmptyEvent = _glfwPostEmptyEventNull,
+        .setWindowTitlebar = _glfwWindowTitlebarNull,
         .getEGLPlatform = _glfwGetEGLPlatformNull,
         .getEGLNativeDisplay = _glfwGetEGLNativeDisplayNull,
         .getEGLNativeWindow = _glfwGetEGLNativeWindowNull,

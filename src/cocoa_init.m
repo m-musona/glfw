@@ -518,6 +518,7 @@ GLFWbool _glfwConnectCocoa(int platformID, _GLFWplatform* platform)
         .setWindowResizable = _glfwSetWindowResizableCocoa,
         .setWindowDecorated = _glfwSetWindowDecoratedCocoa,
         .setWindowFloating = _glfwSetWindowFloatingCocoa,
+        .setWindowTitlebar = _glfwSetWindowTitlebarNull,
         .setWindowOpacity = _glfwSetWindowOpacityCocoa,
         .setWindowMousePassthrough = _glfwSetWindowMousePassthroughCocoa,
         .pollEvents = _glfwPollEventsCocoa,
